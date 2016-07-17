@@ -1,0 +1,155 @@
+nav {
+    background-color: #acd373;
+    height: 80px;
+    line-height: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+nav > div > span {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-right: 80px;
+}
+
+.hero {    
+    color: #9abd67;
+    height: 400px;
+    background: #9abd67; 
+    background-image: url("/images/siluet.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 100%;
+
+}
+
+.hero > div {
+    text-align: center;
+    padding-top: 125px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #f7f7f7;
+    font-size: 20px;
+    text-transform: uppercase;    
+}
+
+h2 {
+    font-family: "Times Roman";
+    color: #f7f7f7;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 18px;    
+}
+
+.arrow {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.arrow img {
+    height: 20px
+}
+
+.main a {
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;   
+}
+
+a.active {
+    text-decoration: underline;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+p {
+    color: #454545;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.para2 {
+    display: block;
+}
+
+.about-us > p {
+    margin-bottom: 30px;
+}
+
+.about-us {
+    padding: 29px;
+}
+
+#human {
+    width: 35px;
+    height: auto;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.about-us h1 {
+    color: #454545;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    height: 30px;
+    padding-left: 50px;
+    line-height: 30px;    
+}
+
+.wrapper {
+    direction: rtl;
+    margin-right: 200px;
+}
+
+.about-us {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    direction: ltr;
+    text-align: left;
+}
+
+.about-us-img {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    direction: ltr;
+}
+
+div > img {
+    height: 280px;
+}
+
+.button {
+    color: #acd473;
+    font-family: Times; 
+    font-style: italic;
+    font-size: 13px;
+    text-decoration: none;
+    border: #acd473 solid 1px;
+    padding: 11px 15px;
+}
